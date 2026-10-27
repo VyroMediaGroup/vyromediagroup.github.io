@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="VYRO brings you Kenyan culture, politics, news, current affairs and global stories that matter.">
+<title>VYRO | Kenya & The World</title>
+<style>
+:root{--red:#e63946;--bg:#101010;--panel:#1b1b1b;--text:#f5f5f5;--muted:#aaa}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+header{background:#171717;border-bottom:1px solid #333;position:sticky;top:0;z-index:5}
+.wrap{max-width:1050px;margin:auto;padding:0 18px}
+.brand{display:flex;align-items:center;justify-content:space-between;padding:17px 0}
+.logo{font-size:34px;font-weight:900;letter-spacing:5px}
+.logo span{color:var(--red)}
+.tag{font-size:11px;color:var(--muted);letter-spacing:1px}
+nav{display:flex;gap:20px;overflow-x:auto;padding:0 0 15px;white-space:nowrap}
+nav a{font-size:13px;font-weight:bold}
+nav a:hover,.link{color:var(--red)}
+.hero{padding:42px 0 30px;background:linear-gradient(130deg,#292020,#111 65%)}
+.kicker{color:#ff626d;font-size:12px;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(34px,7vw,64px);line-height:1.06;margin:12px 0}
+.hero p{color:#ccc;max-width:560px}
+.btn{display:inline-block;background:var(--red);padding:11px 18px;border-radius:5px;font-weight:bold;margin-top:8px}
+.section{padding:27px 0}
+.section-title{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #383838;margin-bottom:17px}
+h2{font-size:22px;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card{background:var(--panel);border:1px solid #303030;border-radius:9px;padding:17px}
+.card .emoji{font-size:27px}
+.card h3{font-size:18px;line-height:1.3;margin:9px 0}
+.card p{font-size:13px;color:var(--muted);margin-bottom:0}
+.pill{font-size:10px;color:#ff747d;text-transform:uppercase;font-weight:bold;letter-spacing:1px}
+.notice{border-left:3px solid var(--red);padding:12px 15px;background:#1b1717;color:#ddd;font-size:13px}
+form{display:flex;gap:8px;margin-top:12px}
+input{min-width:0;flex:1;background:#222;color:white;border:1px solid #444;border-radius:5px;padding:12px}
+button{background:var(--red);color:white;border:0;border-radius:5px;padding:12px;font-weight:bold}
+footer{border-top:1px solid #333;padding:25px 0;color:var(--muted);font-size:12px}
+footer a{margin-right:13px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero{padding:65px 0}.card{padding:21px}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="brand">
+<div><a class="logo" href="#">VYR<span>O</span></a><div class="tag">PAST INSPIRES TOMORROW</div></div>
+<div class="tag">KENYA × WORLD</div>
+</div>
+<nav aria-label="Main navigation">
+<a href="#home">HOME</a><a href="#kenya">KENYA NEWS</a><a href="#politics">POLITICS</a><a href="#culture">CULTURE</a><a href="#world">WORLD</a><a href="#videos">VIDEOS</a><a href="#about">ABOUT</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="kicker">THE STORIES THAT MATTER</div>
+<h1>Kenya is talking.<br><span style="color:#e63946">VYRO is listening.</span></h1>
+<p>From the streets of Kenya to the biggest stories around the world. Culture, politics, current affairs and digital stories — all in one place.</p>
+<a class="btn" href="#latest">Explore the stories ↓</a>
+</div></section>
+<section class="section" id="latest"><div class="wrap">
+<div class="section-title"><h2>Explore VYRO</h2><span class="pill">Our coverage</span></div>
+<div class="grid">
+<a class="card" id="kenya" href="#latest"><div class="emoji">🇰🇪</div><div class="pill">Kenya</div><h3>News & Current Affairs</h3><p>National developments, public issues and stories affecting everyday Kenyans.</p></a>
+<a class="card" id="politics" href="#latest"><div class="emoji">🏛️</div><div class="pill">Politics</div><h3>Government & Opposition</h3><p>Policies, political debates and the decisions shaping the country.</p></a>
+<a class="card" id="culture" href="#latest"><div class="emoji">🌍</div><div class="pill">Heritage</div><h3>Kenyan Culture</h3><p>Communities, traditions, history, food and the stories behind our identity.</p></a>
+<a class="card" id="world" href="#latest"><div class="emoji">🗞️</div><div class="pill">International</div><h3>World Trending</h3><p>Global events explained with context for audiences in Kenya and beyond.</p></a>
+<a class="card" id="videos" href="https://www.youtube.com/@VYRO.DigitalMedia"><div class="emoji">▶️</div><div class="pill">Watch</div><h3>VYRO Digital Stories</h3><p>Discover our short-form videos, explainers and visual storytelling.</p></a>
+<a class="card" href="#about"><div class="emoji">💡</div><div class="pill">Explainers</div><h3>Understand the Story</h3><p>Clear explanations of the background, facts and questions that matter.</p></a>
+</div>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="section-title"><h2>Latest from VYRO</h2><span class="pill">Coming next</span></div>
+<div class="notice">Our newsroom is getting ready. This is the starting version of VYRO. New articles, verified updates and video stories will appear here as we publish them.</div>
+</div></section>
+<section class="section" id="about"><div class="wrap">
+<div class="section-title"><h2>About VYRO</h2></div>
+<p>VYRO is a digital media brand exploring Kenyan culture, politics, current affairs and international stories. Our aim is to make important stories accessible, engaging and understandable.</p>
+<p class="notice">We aim to distinguish confirmed facts from allegations, opinion and developing reports. Check reliable sources before sharing breaking news.</p>
+<h2>Stay connected</h2>
+<p>Follow VYRO for digital stories and video updates.</p>
+<a class="btn" href="https://www.youtube.com/@VYRO.DigitalMedia">Visit our YouTube channel</a>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div class="logo">VYR<span style="color:#e63946">O</span></div>
+<p>KENYAN CULTURE × DIGITAL STORIES</p>
+<p>PAST INSPIRES TOMORROW</p>
+<a href="#home">Home</a><a href="#about">About</a><a href="https://www.youtube.com/@VYRO.DigitalMedia">YouTube</a>
+<p>© 2026 VYRO Digital Media. All rights reserved.</p>
+</div></footer>
+</body>
+</html>
