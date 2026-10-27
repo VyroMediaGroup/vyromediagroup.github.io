@@ -1,0 +1,10 @@
+
+title: VYRO
+description: Kenyan culture, politics, current affairs and international news
+url: "https://vyromediagroup.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /news/:categories/:title/
+collections:
+  drafts:
+    output: false
